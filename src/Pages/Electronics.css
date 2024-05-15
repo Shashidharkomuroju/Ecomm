@@ -1,0 +1,54 @@
+.electronics{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 30px;
+}
+
+.electronics .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 60px; */
+}
+
+.electronics .electronics-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.electronics .electronics-list .electronics-item{
+    width: 620px;
+    height: 680px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 20px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.electronics .electronics-list .electronics-item h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.electronics .electronics-list .electronics-item p{
+    font-size: 12px;
+}
+
+.electronics .electronics-list .electronics-item img{
+    width: 280px;
+}
+
+.electronics-item:hover img{
+    transform: scale(1.1);
+}

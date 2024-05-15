@@ -1,0 +1,74 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 40px 40px;
+  color: white;
+}
+
+footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+footer .logo span {
+  display: block;
+}
+
+footer .logo p {
+  font-size: 12px;
+}
+
+footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .links a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .news {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .news h6 {
+  color: #eec044;
+}
+
+footer .news h5 {
+  font-size: 12px;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .contact .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+footer .contact .box h5 {
+  font-size: 12px;
+}

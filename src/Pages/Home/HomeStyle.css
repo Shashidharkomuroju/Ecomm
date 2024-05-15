@@ -1,0 +1,41 @@
+.landing-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    background-color:darkseagreen;
+}
+
+.landing-page .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 30px;
+}
+
+.landing-page .page-slider{
+    width: 90vw;
+}
+.slider{
+    min-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:darkseagreen; */
+}
+
+ .img-slider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-slider img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}

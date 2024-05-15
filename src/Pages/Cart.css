@@ -1,0 +1,35 @@
+img{
+    width: 80px;
+}
+
+.u-cart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 40px;
+}
+
+.u-cart p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.u-cart .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 20px;
+}
+
+.u-cart .cart-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
